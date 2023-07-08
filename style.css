@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,500;1,600&display=swap');
+
+* {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+table {
+border-collapse: collapse;
+width: 100%;
+}
+
+
+th,
+td {
+text-align: center;
+padding: 8px;
+}
+
+
+th {
+background-color: #4caf50;
+color: white;
+border-color: black;
+}
+
+
+td {
+    margin:4% 0;
+}
+
+img {
+max-width: 50%;
+height: auto;
+border-radius: 50%;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 6%;
+    max-width: 100%;
+    padding: 0 10%;
+}
+
+.name {
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    color: black;
+    font-size: 60px;
+}
+
+.atributes{
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    font-size: 20px;
+    color: black;
+}
+
+tr {
+    border: 1px solid rgb(78, 77, 77);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+  }
+  
+  header {
+    padding:1%;
+    text-align: center;
+    background-color: black;
+  }
+  
+  h1 {
+    color: #4caf50;
+    font-family: 'Arial', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+  td:first-child {
+    font-size: 120%;
+    font-style: italic;
+  }
+  
